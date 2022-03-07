@@ -2,10 +2,11 @@ import { AppBar, Toolbar, Typography } from '@material-ui/core';
 import React from 'react';
 import "./style.css"
 type Props = {
-
+    hurry: number;
+    onClick: any;
 }
 
-const Header: React.FC = () => {
+const Header: React.FC<Props> = (props) => {
     return (
        <header>
             <h1 className='pageTitle'>
@@ -13,8 +14,8 @@ const Header: React.FC = () => {
             </h1>
             <nav className="navs">
                 <ul className='header_ul'>
-                    <li className='header_li'><a href="#">ABOUT(まて)</a></li>
-                    <li className='header_li'><a href="#">CONTACT(まて)</a></li>
+                    <li className='header_li'><button onClick={props.onClick}>ABOUT(まて)</button></li>
+                    <li className='header_li'><button onClick={props.onClick}>CONTACT(まて)</button></li>
                  </ul>
             </nav>
        </header>
