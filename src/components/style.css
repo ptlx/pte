@@ -44,9 +44,9 @@
 }
 
 .iconImg {
-   height: 340px;
-   width: 340px;
-   /*background-image: url("./summerriver.jpg"); */
+   height: 350px;
+   width: 350px;
+   background-image: url("../images/patchouli2.png"); 
    border-radius: 50%; 
    /*background-position: left top; */
    display: inline-block;
@@ -68,6 +68,11 @@
    padding: 10px,10px,10px,10px;
 }
 
+.myname {
+   font-family:"Roboto";
+   font-size: 26px;
+}
+
 .pageComponent {
    background-color: rgb(0,0,0,0);
    width:96%;
@@ -78,4 +83,23 @@
    margin-block-start: 130px;
    /*background-color: #DDD;*/
    /*align-items: center;*/
+}
+
+.introduce {
+   border-radius: 20px; 
+   min-height: 100px;
+   background-color: #fff;
+   display: table;
+   opacity: 0.98;
+   width: 340px;
+   margin-inline-start: auto;
+   margin-inline-end: auto;
+}
+
+.introduceContent {
+   padding-top: 10px;
+   text-align: center;
+   display: block;
+   font-family: "Roboto";
+   color: #4b4b4b;
 }

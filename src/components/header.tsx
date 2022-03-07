@@ -13,8 +13,8 @@ const Header: React.FC = () => {
             </h1>
             <nav className="navs">
                 <ul className='header_ul'>
-                    <li className='header_li'><a href="#">ABOUT</a></li>
-                    <li className='header_li'><a href="#">CONTACT</a></li>
+                    <li className='header_li'><a href="#">ABOUT(まて)</a></li>
+                    <li className='header_li'><a href="#">CONTACT(まて)</a></li>
                  </ul>
             </nav>
        </header>

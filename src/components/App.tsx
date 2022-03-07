@@ -10,9 +10,16 @@ const App: React.FC = () => {
       <div className='pageComponent'>
           <div className='profile'>
             <div className='imgIconSet'>
-            <img src='../images/patchouli.jpeg' className='iconImg' alt="sss"></img>
+            <a className='iconImg'></a>
             <a href='https://twitter.com/pte_hs' className='snsicon'><TwitterIcon/></a>
             <a href='https://github.com/ptlx' className='snsicon'><GithubIcon/></a>
+            </div>
+            <div>
+              <h4 className='myname'>pte</h4>
+            </div>
+            <div className='introduce'>
+              <a className='introduceContent'>圏論などをやっています。</a>
+              <a className='introduceContent'>ネギトロが好きです。</a>
             </div>
         </div>
       </div>
