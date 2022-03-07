@@ -87,6 +87,14 @@
 
 button {
    background-color: #fff;
+   text-align: center;
+   padding: 7px 30px;
+   display: block;
+   text-decoration: none;
+   color: black;
+   border: none;
+
+   font-size: 14px;
 }
 
 .introduce {
@@ -102,6 +110,8 @@ button {
 
 .introduceContent {
    padding-top: 10px;
+   padding-left: 9px;
+   padding-right: 9px;
    text-align: center;
    display: block;
    font-family: "Roboto";

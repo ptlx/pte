@@ -10,7 +10,7 @@ const Header: React.FC<Props> = (props) => {
     return (
        <header>
             <h1 className='pageTitle'>
-                <a href="/">pte______hs</a>
+                <a href="https://ptlx.github.io/pte">pte______hs</a>
             </h1>
             <nav className="navs">
                 <ul className='header_ul'>
