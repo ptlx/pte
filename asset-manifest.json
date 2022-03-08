@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pte/static/css/main.514f8702.css",
-    "main.js": "/pte/static/js/main.d5f03d6d.js",
-    "static/media/waterfall.jpg": "/pte/static/media/waterfall.3be436dc5cb7e42b681f.jpg",
-    "static/media/patchouli2.png": "/pte/static/media/patchouli2.33a07467197b7657df8b.png",
-    "index.html": "/pte/index.html",
-    "main.514f8702.css.map": "/pte/static/css/main.514f8702.css.map",
-    "main.d5f03d6d.js.map": "/pte/static/js/main.d5f03d6d.js.map"
+    "main.css": "/static/css/main.f81e12d5.css",
+    "main.js": "/static/js/main.d5f03d6d.js",
+    "static/media/waterfall.jpg": "/static/media/waterfall.3be436dc5cb7e42b681f.jpg",
+    "static/media/patchouli2.png": "/static/media/patchouli2.33a07467197b7657df8b.png",
+    "index.html": "/index.html",
+    "main.f81e12d5.css.map": "/static/css/main.f81e12d5.css.map",
+    "main.d5f03d6d.js.map": "/static/js/main.d5f03d6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.514f8702.css",
+    "static/css/main.f81e12d5.css",
     "static/js/main.d5f03d6d.js"
   ]
 }
