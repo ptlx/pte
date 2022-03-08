@@ -14,8 +14,8 @@ const Header: React.FC<Props> = (props) => {
             </h1>
             <nav className="navs">
                 <ul className='header_ul'>
-                    <li className='header_li'><button onClick={props.onClick}>ABOUT(まて)</button></li>
-                    <li className='header_li'><button onClick={props.onClick}>CONTACT(まて)</button></li>
+                    <li className='header_li'><button onClick={props.onClick("圏論などをやっています。\nネギトロが好きです。")}>ABOUT</button></li>
+                    <li className='header_li'><button onClick={props.onClick("Twitterは@ptlp_のほうが情報系らしいこと話してます。よければ。")}>CONTACT</button></li>
                  </ul>
             </nav>
        </header>
