@@ -8,6 +8,7 @@ const App: React.FC = () => {
   if (hurry>=1) displaySentense = "急かすな"
   if (hurry>=2) displaySentense = "急かすな！！！！"
   if (hurry>=5) displaySentense = "ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ"
+  // const setOnClick = (str: string) => setHurry(str)
   return (
     
     <>
