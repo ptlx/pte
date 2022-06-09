@@ -1,15 +1,15 @@
 * {
     box-sizing: border-box;
- }
+}
  
- body {
+body {
     margin: 0;
     padding: 0;
     font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-image: url("../images/waterfall.jpg");
- }
+}
 
- header {
+header {
     opacity: 0.8;
     width: 100%;
     padding: 30px 4% 10px;
@@ -18,21 +18,21 @@
     top: 0;
     display: flex;
     align-items: center;
- }
+}
 
- .header_ul {
+.header_ul {
    list-style: none;
    margin: 0;
    display:flex;
- }
- .header_li {
+}
+.header_li {
      padding-left: 18px;
- }
+}
 
- a{
+a{
     text-decoration: none;
     color: #4b4b4b;
- }
+}
 
 .pageTitle {
     font-family:"Roboto";
@@ -48,7 +48,6 @@
    width: 350px;
    background-image: url("../images/patchouli2.png"); 
    border-radius: 50%; 
-   /*background-position: left top; */
    display: inline-block;
 }
 
@@ -81,8 +80,6 @@
    margin-inline-start: auto;
    margin-inline-end: auto;
    margin-block-start: 130px;
-   /*background-color: #DDD;*/
-   /*align-items: center;*/
 }
 
 button {
