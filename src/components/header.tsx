@@ -1,10 +1,9 @@
-import { AppBar, Toolbar, Typography } from '@material-ui/core';
 import React from 'react';
-import "./style.css"
+import "./style.css";
 type Props = {
     hurry: number;
-    onClick: any;
-}
+    onClick: (str: string) => () => void;
+};
 
 const Header: React.FC<Props> = (props) => {
     return (

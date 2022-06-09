@@ -68,13 +68,13 @@ a{
 }
 
 .myname {
-   font-family:"Roboto";
+   font-family: "Roboto";
    font-size: 26px;
 }
 
 .pageComponent {
    background-color: rgb(0,0,0,0);
-   width:96%;
+   width: 96%;
    min-height: 700px;
 
    margin-inline-start: auto;

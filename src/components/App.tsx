@@ -6,8 +6,7 @@ import defaultWords from "./words";
 
 const App: React.FC = () => {
   const [hurry,setHurry] = useState(0);
-  const [disp, setdisp] = useState(defaultWords[Math.floor(Math.random()*defaultWords.length)]);
-  //let displaySentense = defaultWords[Math.floor(Math.random()*defaultWords.length)] //"圏論などをやっています。\nネギトロが好きです。"
+  const [disp, setdisp] = useState(defaultWords[Math.floor(Math.random() * defaultWords.length)]);
   if (hurry >= 1) setdisp("急かすな")
   if (hurry >= 2) setdisp("急かすな！！！！")
   if (hurry >= 5) setdisp("ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ")
