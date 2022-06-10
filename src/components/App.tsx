@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import Header from "./header";
-import TwitterIcon from '@material-ui/icons/Twitter';
-import GithubIcon from '@material-ui/icons/GitHub';
+import TwitterIcon from "@material-ui/icons/Twitter";
+import GithubIcon from "@material-ui/icons/GitHub";
 import defaultWords from "./words";
+import myIcon from "../images/patchouli2.png";
 
 const App: React.FC = () => {
     const [hurry, setHurry] = useState(0);
@@ -14,18 +15,22 @@ const App: React.FC = () => {
     return (
         <>
             <Header hurry={hurry} onClick={setOnClick}/>
-            <div className='pageComponent'>
-                <div className='profile'>
-                    <div className='imgIconSet'>
-                        <a className='iconImg'></a>
-                        <a href='https://twitter.com/pte_hs' className='snsicon'><TwitterIcon/></a>
-                        <a href='https://github.com/ptlx' className='snsicon'><GithubIcon/></a>
+            <div className="pageComponent">
+                <div className="profile">
+                    <div className="imgIconSet">
+                        <img 
+                            className="iconImage" 
+                            src={myIcon}
+                            alt="アイコン画像"
+                        />
+                        <a href="https://twitter.com/pte_hs" className="snsicon"><TwitterIcon/></a>
+                        <a href="https://github.com/ptlx" className="snsicon"><GithubIcon/></a>
                     </div>
                     <div>
-                        <h4 className='myname'>pte</h4>
+                        <h4 className="myname">pte</h4>
                     </div>
-                    <div className='introduce'>
-                        <a className='introduceContent'>{disp}</a>
+                    <div className="comment">
+                        <p className="comment">{disp}</p>
                     </div>
                 </div>
             </div>
