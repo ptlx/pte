@@ -3,25 +3,21 @@ import "./style.css";
 import Header from "../header/header";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import GithubIcon from "@material-ui/icons/GitHub";
-import defaultWords from "../../data/words";
 import myIcon from "../../images/patchouli2.png";
+import defaultWords from "../../data/words"
 
-type Props = {
-    hurry: number;
-    setdisp: React.Dispatch<React.SetStateAction<string>>;
-    disp: string;
-}
-
-
-export const Home: React.FC<Props> = (props: Props) => {
-    if (props.hurry >= 1) props.setdisp("急かすな")
-    if (props.hurry >= 2) props.setdisp("急かすな！！！！")
-    if (props.hurry >= 5) props.setdisp("ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ")
-    const setOnClick = (str: string) => ( () => props.setdisp(str) )
+export const Home: React.FC = () => {
+    const [hurry, setHurry] = useState(0);
+    const [disp, setdisp] = useState(defaultWords[Math.floor(Math.random() * defaultWords.length)]);
+    if (hurry >= 1) setdisp("急かすな")
+    if (hurry >= 2) setdisp("急かすな！！！！")
+    if (hurry >= 5) setdisp("ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ")
+    const setOnClick = (str: string) => ( () => setdisp(str) )
+    
     return (
         <>
             <Header 
-                hurry={props.hurry} 
+                hurry={hurry} 
                 onClick={setOnClick}
             />
             <div className="pageComponent">
@@ -39,7 +35,7 @@ export const Home: React.FC<Props> = (props: Props) => {
                         <h4 className="myname">pte</h4>
                     </div>
                     <div className="comment">
-                        <p className="comment">{props.disp}</p>
+                        <p className="comment">{disp}</p>
                     </div>
                 </div>
             </div>
