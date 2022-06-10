@@ -1,9 +1,12 @@
 import React, { useState } from "react";
-import Header from "./header";
+import { BrowserRouter, Route, Link } from "react-router-dom";
+import "./style.css";
+import Header from "../header/header";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import GithubIcon from "@material-ui/icons/GitHub";
-import defaultWords from "./words";
-import myIcon from "../images/patchouli2.png";
+import defaultWords from "../../data/words";
+import myIcon from "../../images/patchouli2.png";
+
 
 const App: React.FC = () => {
     const [hurry, setHurry] = useState(0);
@@ -14,7 +17,10 @@ const App: React.FC = () => {
     const setOnClick = (str: string) => ( () => setdisp(str) )
     return (
         <>
-            <Header hurry={hurry} onClick={setOnClick}/>
+            <Header 
+                hurry={hurry} 
+                onClick={setOnClick}
+            />
             <div className="pageComponent">
                 <div className="profile">
                     <div className="imgIconSet">
