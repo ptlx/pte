@@ -1,8 +1,6 @@
-import React  from "react";
+import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import "./style.css";
 import { Home } from "../home/home";
-
 
 const App: React.FC = () => {
     return (
@@ -12,7 +10,6 @@ const App: React.FC = () => {
                     <Route index element={<Home/>}/>
                 </Routes>
             </Router>
-
         </>
     );
 }
