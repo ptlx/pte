@@ -1,4 +1,4 @@
-const words = [
+export const words = [
     "暇やね",
     "ゆずれもんサイダーはおいしいです",
     "最近生活習慣がかなり不規則気味です、",
@@ -12,4 +12,4 @@ const words = [
     "おすすめのジュースを教えてください。特にりんごがいいです。"
 ]
 
-export default words;
+export const defaultWord = words[Math.floor(Math.random() * words.length)];
